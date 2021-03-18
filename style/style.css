@@ -1,0 +1,102 @@
+body{
+	background-color: #191919;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+i{
+	margin-right: 7px;
+}
+.container{
+	height: 70px;
+	background-color: black;
+	margin-top: -33px;
+}
+.options{
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 70%;
+	font-size: 18px;
+}
+.abas{
+	color: #A9A9A9;
+	text-decoration: none;
+	padding-left: 20px;
+}
+.abas:hover{
+	color: white;
+	transition: 0.4s;
+}
+.description{
+	margin-top: 100px;
+	margin-left: 10%;
+	position: absolute;
+	color: white;
+}
+.description h2{
+	font-size: 40px;
+}
+.description p{
+	font-size: 20px;
+}
+.buttons{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 10%;
+}
+.button{
+	background-color: black;
+	padding: 18px;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 2px;
+	margin-right: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.image{
+	width: 260px;
+	height: 400px;
+}
+.button:hover{
+	background-color: white;
+	color: black;
+	opacity: 1;
+	transition: 0.25s;
+}
+.carrosel{
+	margin-top: 560px;
+}
+#capa{
+	position: absolute;
+	height: 550px;
+	width: 100%;
+	object-fit: cover;
+}
+#netflix{
+	margin-left: 20px;
+	color: red;
+	font-size: 50px;
+}
+
+@media(max-width: 1125px){
+	.options{
+		margin-left: 65%; 
+	}
+}
+@media(max-width: 1060px){
+	.options{
+		margin-left: 60%; 
+	}
+}
+@media(max-width: 925px){
+	.options{
+		margin-left: 50%; 
+	}
+}
+@media(max-width: 747px){
+	.options{
+		margin-left: 36%; 
+	}
+}
